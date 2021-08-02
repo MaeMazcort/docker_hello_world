@@ -2,16 +2,16 @@
 Hola mundo e introducción al dockerfile y las imágenes
 
 ### Hacer una imagen
-* docker build -t <nombre> .
+* docker build -t < nombre > .
 
 ### Ver las imágenes que tenemos
 * docker images
 
 ### Acceder a la imagen
-* docker run -it <nombre> bash
+* docker run -it < nombre > bash
 
 ### Correr el contenedor en detach mode
-* docker run -d <nombre>
+* docker run -d < nombre >
 
 ### Contenedores activos
 * docker ps
@@ -20,13 +20,13 @@ Hola mundo e introducción al dockerfile y las imágenes
 * docker ps -a
 
 ### Logs
-* docker logs <id_contenedor>
+* docker logs < id_contenedor >
 
 ### Parar el contenedor
-* docker stop <nombre>
+* docker stop < nombre >
 
 ### Eliminar el contenedor
-* docker rm <nombre>
+* docker rm < nombre >
 
 ### Eliminar la imagen
-* docker rmi <nombre>
+* docker rmi < nombre >
